@@ -1,0 +1,55 @@
+[
+    {
+        "project": "demystify",
+        "projectName": "MOCK Demystify",
+        "description": "How genetic variation (genotypes) correlate with clinical, or phenotypic information is a grand challenge facing biology today, and particularly its association with disease. A human genome comprises 6.4 billion letters, or genotypes. Most of these letters are unchanged in all people, but typically each person has approximately 5 million genetic variants that are unique to that individual. Project demystify seeks to use phenotypic information derived from clinical information and possibly also from wearable devices like Fitbits that will be correlated with the genomes of those same people. The nature of the phenotypic information determines the most appropriate correlation test - each of which is computationally expensive. It is these complex calculations that will be computed via Project Demystify on users phones.",
+        "summary": "Demystifying Gen-Phen Correlations.",
+        "cancersSupported": "XXXX",
+        "country": "Australia",
+        "countryCode": "AU",
+        "algorithm": "demystify",
+        "tasksPerJob": 1,
+        
+        "percentageCompleted": 0,
+        "totalCompleted": 0,
+        "totalProblems": 0,
+        "community": 0,
+        
+        "researchPartner" : {
+            "id": "garvan",
+            "title": "Garvan Institute of Medical Research",
+            "url": "https://www.garvan.org.au/dreamlab",
+            "logo": {
+                "light" : "http://stats.b2dreamlab.com/logos/light_garvan_logo.png",
+                "dark" : "http://stats.b2dreamlab.com/logos/dark_garvan_logo.png"
+            }
+        }
+    },
+    
+    {
+        "project": "icdrugs-phase-3",
+        "projectName": "MOCK DRUGS Phase 3",
+        "description": "Welcome to Phase 3 of this large citizen-powered scientific project called DRUGS (or \"Drug Repurposing Using Grids of Smartphones\"). Thanks to your contribution, in Phase 2 we completed the calculations of tailoring individual drugs to cancer genetics and identified promising drug candidates for further study.",
+        "summary": "Genetics-tailored drug repositioning for anti-cancer therapy.",
+        "cancersSupported": "XXXX",
+        "country": "United Kingdom",
+        "countryCode": "UK",
+        "algorithm": "icdrugs-2",
+        "tasksPerJob": 1,
+                
+        "percentageCompleted": 0,
+        "totalCompleted": 0,
+        "totalProblems": 0,
+        "community": 0,
+        
+        "researchPartner" : {
+            "id": "imperial",
+            "title": "Imperial College London",
+            "url": "https://www.imperial.ac.uk/",
+            "logo": {
+                "light" : "http://stats.b2dreamlab.com/logos/light_icdrugs.png",
+                "dark" : "http://stats.b2dreamlab.com/logos/dark_icdrugs.png"
+            }
+        }
+    }
+]

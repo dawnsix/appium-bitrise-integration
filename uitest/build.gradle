@@ -1,0 +1,36 @@
+import java.lang.annotation.Annotation
+
+test {
+    beforeTest { descriptor ->
+        logger.lifecycle("Running test: ${descriptor}")
+    }
+}
+
+task hello (type: Task) {
+    println('hello from uitest:gradle.build')
+}
+
+task whitebox(type: Test) {
+    useJUnitPlatform {
+        includeTags 'dreamlabWhitebox'
+        //excludeTags 'dreamlabBlackbox'
+    }
+}
+
+task blackbox(type: Test) {
+    useJUnitPlatform {
+        includeTags 'dreamlabBlackbox'
+    }
+}
+
+task composedemo(type: Test) {
+    useJUnitPlatform {
+        includeTags 'composeDemo'
+    }
+}
+
+task emv(type: Test) {
+    useJUnitPlatform {
+        includeTags 'emv'
+    }
+}

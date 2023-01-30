@@ -1,0 +1,51 @@
+{
+  "configurations" : [
+    {
+      "id" : "4D262BFC-C8E6-4326-B9F8-04DA0A4AE9CC",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:DreamLab.xcodeproj",
+          "identifier" : "518DDD661FD60C39007C5952",
+          "name" : "DreamLab"
+        }
+      ]
+    },
+    "commandLineArgumentEntries" : [
+      {
+        "argument" : "-UnitTesting"
+      },
+      {
+        "argument" : "-BlockAtLaunchWhileTesting"
+      },
+      {
+        "argument" : "-SkipInitialFetchWhileTesting",
+        "enabled" : false
+      }
+    ],
+    "language" : "en",
+    "region" : "AU",
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:DreamLab.xcodeproj",
+      "identifier" : "518DDD661FD60C39007C5952",
+      "name" : "DreamLab"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:DreamLab.xcodeproj",
+        "identifier" : "518DDD7A1FD60C3A007C5952",
+        "name" : "DreamLabTests"
+      }
+    }
+  ],
+  "version" : 1
+}

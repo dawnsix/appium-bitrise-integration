@@ -1,0 +1,71 @@
+[
+    {
+      "partnerWebsiteUrl" : "https:\/\/www.imperial.ac.uk\/",
+      "partnerTitle" : "Imperial College London",
+      "characterImageUrl" : "http:\/\/stats.b2dreamlab.com\/develop\/images\/dummy_character.png",
+      "partnerUrl" : "imperial.ac.uk\/",
+      "project" : "icdrugs-phase-3",
+      "summary" : "Genetics-tailored drug repositioning for anti-cancer therapy.",
+      "partnerLogoSquare": "http:\/\/stats.b2dreamlab.com\/production\/logos\/dark_icdrugs.png",
+      "partnerLogo" : {
+        "light" : "http:\/\/stats.b2dreamlab.com\/production\/logos\/light_icdrugs.png",
+        "dark" : "http:\/\/stats.b2dreamlab.com\/production\/logos\/dark_icdrugs.png"
+      },
+      "country" : "United Kingdom",
+      "percentageCompleted" : 100,
+      "countryCode" : "GB",
+      "region" : "eu-west-2",
+      "algorithm" : "icdrugs-2",
+      "countryFlagUri" : "http:\/\/stats.b2dreamlab.com\/production\/flags\/gb.png",
+      "totalProblems" : 58537175,
+      "projectName" : "DRUGS Phase 3 - Longer Title Long Title",
+      "totalCompleted" : 9226859,
+      "community" : 25562,
+      "thumb" : {
+        "light" : "http:\/\/stats.b2dreamlab.com\/production\/images\/icdrugs-phase-3-thumb.png",
+        "dark" : "http:\/\/stats.b2dreamlab.com\/production\/images\/icdrugs-phase-3-thumb.png"
+      },
+      "tasksPerJob" : 1,
+      "cancersSupported" : "Breast Cancer | Colorectal Cancer | Prostate Cancer | Lung Cancer",
+      "heroImage" : {
+        "light" : "http:\/\/stats.b2dreamlab.com\/production\/images\/icdrugs-phase-3-hero.png",
+        "dark" : "http:\/\/stats.b2dreamlab.com\/production\/images\/icdrugs-phase-3-hero.png"
+      },
+      "description" : "Welcome to Phase 3 of this large citizen-powered scientific project called DRUGS (or \"Drug Repurposing Using Grids of Smartphones\"). Thanks to your contribution, in Phase 2 we completed the calculations of tailoring individual drugs to cancer genetics and identified promising drug candidates for further study. Now we’re ready to take the leap into Phase 3 to search for the best drug combinations for each cancer type, to offer more optimized therapies. Our overall aim is to speed up cancer drug discovery by using a combination of super-computing (powered by you Dreamers!)"
+    },
+    
+    {
+      "partnerWebsiteUrl" : "https:\/\/www.garvan.org.au\/dreamlab",
+      "partnerTitle" : "Garvan Institute",
+      "characterImageUrl" : "http:\/\/stats.b2dreamlab.com\/develop\/images\/dummy_character.png",
+      "partnerUrl" : "garvan.org.au\/dreamlab",
+      "project" : "demystify",
+      "summary" : "Demystifying Gen-Phen Correlations.",
+      "partnerLogoSquare": "http:\/\/stats.b2dreamlab.com\/production\/logos\/dark_icdrugs.png",
+      "partnerLogo" : {
+        "light" : "http:\/\/stats.b2dreamlab.com\/production\/logos\/light_garvan_logo.png",
+        "dark" : "http:\/\/stats.b2dreamlab.com\/production\/logos\/dark_garvan_logo.png"
+      },
+      "country" : "Australia",
+      "percentageCompleted" : 100,
+      "countryCode" : "AU",
+      "region" : "ap-southeast-2",
+      "algorithm" : "demystify",
+      "countryFlagUri" : "http:\/\/stats.b2dreamlab.com\/production\/flags\/au.png",
+      "totalProblems" : 513332280,
+      "projectName" : "Demystify",
+      "totalCompleted" : 140366941,
+      "community" : 49546,
+      "thumb" : {
+        "light" : "http:\/\/stats.b2dreamlab.com\/production\/images\/demystifyThumb.png",
+        "dark" : "http:\/\/stats.b2dreamlab.com\/production\/images\/demystifyThumb.png"
+      },
+      "tasksPerJob" : 1,
+      "cancersSupported" : "Malignant tumours",
+      "heroImage" : {
+        "light" : "http:\/\/stats.b2dreamlab.com\/production\/images\/demystifyHero.png",
+        "dark" : "http:\/\/stats.b2dreamlab.com\/production\/images\/demystifyHero.png"
+      },
+      "description" : "How genetic variation (genotypes) correlate with clinical, or phenotypic information is a grand challenge facing biology today, and particularly its association with disease. A human genome comprises 6.4 billion letters, or genotypes. Most of these letters are unchanged in all people, but typically each person has approximately 5 million genetic variants that are unique to that individual. Project demystify seeks to use phenotypic information derived from clinical information and possibly also from wearable devices like Fitbits that will be correlated with the genomes of those same people. The nature of the phenotypic information determines the most appropriate correlation test - each of which is computationally expensive. It is these complex calculations that will be computed via Project Demystify on users phones."
+    }
+]

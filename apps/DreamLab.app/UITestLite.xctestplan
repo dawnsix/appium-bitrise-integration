@@ -1,0 +1,73 @@
+{
+  "configurations" : [
+    {
+      "id" : "3983C749-0041-449F-BC39-079E92ADA2D3",
+      "name" : "Configuration 1",
+      "options" : {
+        "commandLineArgumentEntries" : [
+
+        ],
+        "language" : "en",
+        "region" : "AU"
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:DreamLab.xcodeproj",
+      "identifier" : "518DDD661FD60C39007C5952",
+      "name" : "DreamLab"
+    }
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "ContributionUITests\/testContributionTimerShouldNotBeResetWhenChangeProject()",
+        "DataLimitTests\/testCellularDataUsageBeResetMonthly()",
+        "DataLimitTests\/testCellularDataUsageWillBeUpdated()",
+        "DataLimitTests\/testExceedCellularLimitBeforeStartPowering()",
+        "DataLimitTests\/testExceedCellularLimitDuringPowering()",
+        "DataLimitTests\/testExceedWifiLimitBeforeStartPowering()",
+        "DataLimitTests\/testWifiDataUsageIsResetMonthly()",
+        "InterruptedPoweringTests",
+        "MainTabBarUITests",
+        "ProjectsUITests\/testBrowserInstitutionURL()",
+        "ProjectsUITests\/testSelectProjectDuringPowering()",
+        "ProjectsUITests\/testSelectProjectNeedsUpdateToPower()",
+        "ReminderTests\/testDismissScheduleReminderDialog()",
+        "ReminderTests\/testReminderNotificationAppearsWhenEnabled()",
+        "SettingsUITests\/testAboutNavigation()",
+        "SettingsUITests\/testAnalyticsToggle()",
+        "SettingsUITests\/testFAQNavigation()",
+        "SettingsUITests\/testHowToPowerDreamLabNavigation()",
+        "SettingsUITests\/testPrivacyStatementNavigation()",
+        "SettingsUITests\/testSendFeedback()",
+        "SettingsUITests\/testTermsAndConditionsNavigation()",
+        "SleepModeUITests\/testScreenDimmingOnContributionsTab()",
+        "SleepModeUITests\/testScreenDimmingOnNewsTab()",
+        "SleepModeUITests\/testScreenDimmingOnProjectsTab()",
+        "SleepModeUITests\/testScreenDimmingOnSettingsTab()",
+        "SleepModeUITests\/testScreenDimmingWhenDeviceFaceDown()",
+        "SplashUITests",
+        "TheLabUITests\/testContributionFlowEndSessionImmediately()",
+        "TheLabUITests\/testContributionFlowSwitchTabs()",
+        "TheLabUITests\/testEndSessionOnEstimatedDays()",
+        "TheLabUITests\/testEndSessionOnRegionShared()",
+        "TheLabUITests\/testEndSessionOnSpeedIfShare()",
+        "TheLabUITests\/testEndSessionOnSuperComputer()",
+        "TheLabUITests\/testInviteFriendOnCarousel()",
+        "TheLabUITests\/testKillAppWhilePowering()",
+        "TheLabUITests\/testNoNetworkOnStartPower()",
+        "TheLabUITests\/testOnlyUseWIFIWithoutWIFI()",
+        "TheLabUITests\/testPoweringInCellularNetwork()",
+        "TheLabUITests\/testStartPoweringWithoutCharging()"
+      ],
+      "target" : {
+        "containerPath" : "container:DreamLab.xcodeproj",
+        "identifier" : "97B0F03C21B62DA200F9D9C0",
+        "name" : "DreamLabUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -1,0 +1,37 @@
+[
+    {
+      "project": "demystify-develop",
+      "currentDevice": {
+        "durationInMillis": 0,
+        "completedCalculations": 0
+      },
+      "otherDevices": {
+        "durationInMillis": 50000,
+        "completedCalculations": 50
+      }
+    },
+    
+    {
+      "project": "genome-develop",
+      "currentDevice": {
+        "durationInMillis": 0,
+        "completedCalculations": 0
+      },
+      "otherDevices": {
+        "durationInMillis": 150000,
+        "completedCalculations": 150
+      }
+    },
+    
+    {
+      "project": "dummy",
+      "currentDevice": {
+        "durationInMillis": 10000,
+        "completedCalculations": 100
+      },
+      "otherDevices": {
+        "durationInMillis": 50000,
+        "completedCalculations": 50
+      }
+    }
+]
