@@ -35,7 +35,7 @@ class EspressoPage(driver: AppiumDriver<*>): Page(driver) {
     private var privateUIElement = MobileBy.AccessibilityId("Graphics")
 
     private var composeField_username = MobileBy.AndroidViewTag("user")
-    private var composeField_usernamedesc = MobileBy.AccessibilityId("accessIdx")
+    private var composeField_usernamedesc = MobileBy.AccessibilityId("accessId")
     private var composeField_password = MobileBy.AndroidViewTag("password")
     private var composeField_login = MobileBy.AndroidViewTag("loginbutton")
 
