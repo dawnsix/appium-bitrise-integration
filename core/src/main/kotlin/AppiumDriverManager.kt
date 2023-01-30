@@ -89,7 +89,7 @@ object AppiumDriverManager {
     fun isIosDriverExists() = this.iosDriver != null
 
     private fun getAndroidCapabilities(absolutePath: String): DesiredCapabilities = DesiredCapabilities().apply {
-        setCapability(MobileCapabilityType.DEVICE_NAME, "Android Emulator")
+        setCapability(MobileCapabilityType.DEVICE_NAME, "automation-test")
         setCapability(MobileCapabilityType.PLATFORM_NAME, "Android")
         setCapability("appActivity", EmvConstants.ACTIVITY)
         setCapability("appPackage", EmvConstants.PACKAGE)
@@ -99,7 +99,7 @@ object AppiumDriverManager {
 
     private fun getEspressoCapabilities(absolutePath: String): DesiredCapabilities = DesiredCapabilities().apply {
         setCapability("automationName", "Espresso")
-        setCapability(MobileCapabilityType.DEVICE_NAME, "automation-test")
+        setCapability(MobileCapabilityType.DEVICE_NAME, "Android Emulator")
         setCapability(MobileCapabilityType.PLATFORM_NAME, "Android")
         setCapability("appPackage", ComposeConstants.PACKAGE)
         setCapability("appActivity", ComposeConstants.ACTIVITY)
