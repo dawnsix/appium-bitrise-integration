@@ -26,12 +26,6 @@ class EspressoPage(driver: AppiumDriver<*>): Page(driver) {
     @iOSXCUITFindBy(accessibility = "btnTrailing")
     private var btnNext: MobileElement? = null
 
-    @AndroidFindBy(id = DreamlabConstants.PACKAGE + ":id/walkthroughBack")
-    private var btnBack: MobileElement? = null
-
-    @AndroidFindBy(id = DreamlabConstants.PACKAGE + ":id/walkthroughSkip")
-    private var btnSkipWalkthrough: MobileElement? = null
-
     private var privateUIElement = MobileBy.AccessibilityId("Graphics")
 
     private var composeField_username = MobileBy.AndroidViewTag("user")
@@ -61,20 +55,6 @@ class EspressoPage(driver: AppiumDriver<*>): Page(driver) {
             HelperFunctions().scriptFlash(listItem))
 
         listItem.click()
-    }
-
-    public fun EspressoDemoDreamlab() {
-        var wait = WebDriverWait(driver, 30)
-        wait.until(ExpectedConditions.elementToBeClickable(btnNext))
-
-        driver.executeScript("mobile: flashElement",
-            HelperFunctions().scriptFlash(btnNext as MobileElement))
-
-        var dunno = wait.until(ExpectedConditions.presenceOfElementLocated(
-            MobileBy.className("androidx.viewpager.widget.ViewPager"))) //"android.widget.FrameLayout")))
-
-        driver.executeScript("mobile: flashElement",
-            HelperFunctions().scriptFlash(dunno as MobileElement))
     }
 
     public fun ComposeDemoTestApp() {

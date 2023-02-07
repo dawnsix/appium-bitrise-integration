@@ -38,7 +38,7 @@ object AppiumDriverManager {
             val classpathRoot = File(System.getProperty("user.dir"))
             val appDir = File(classpathRoot, "../apps")
             //val app = File(appDir.canonicalPath, EmvConstants.APP_ANDROID)
-            val app = File(EmvConstants.APP_ANDROID)
+            val app = File(ComposeConstants.APP_ANDROID)
             val capabilities = getAndroidCapabilities(app.absolutePath)
             androidDriver = AndroidDriver<WebElement>(URL(appiumLoc), capabilities)
                     .apply {
@@ -91,8 +91,8 @@ object AppiumDriverManager {
     private fun getAndroidCapabilities(absolutePath: String): DesiredCapabilities = DesiredCapabilities().apply {
         setCapability(MobileCapabilityType.DEVICE_NAME, "automation-test")
         setCapability(MobileCapabilityType.PLATFORM_NAME, "Android")
-        setCapability("appActivity", EmvConstants.ACTIVITY)
-        setCapability("appPackage", EmvConstants.PACKAGE)
+        setCapability("appActivity", ComposeConstants.ACTIVITY)
+        setCapability("appPackage", ComposeConstants.PACKAGE)
         setCapability("app", absolutePath)
         setCapability("fullReset", true)
     }
@@ -122,9 +122,9 @@ object AppiumDriverManager {
 object DreamlabConstants {
     const val APP_ANDROID = "app-local-debug.apk"
     //const val APP_ANDROID = "http://localhost:8088/app-local-debug.apk"
-    const val APP_IOS = "Dreamlab.app"
-    const val PACKAGE = "au.com.vodafone.dreamlabapp.local.debug"
-    const val ACTIVITY = "au.com.vodafone.dreamlabapp.presentation.launcher.LauncherScreenActivity"
+    const val APP_IOS = "[redacted]"
+    const val PACKAGE = "[redacted]"
+    const val ACTIVITY = "[redacted]"
     val ESPRESSO_CONFIG = File(File(System.getProperty("user.dir")), "../esconfig.json").canonicalPath
 }
 
@@ -140,11 +140,5 @@ object ComposeConstants{
     const val APP_ANDROID = "app-compose.apk"
     const val APP_URI = "http://localhost:8088/app-compose.apk"
     val APP_ENV_VAR = System.getenv("BITRISE_APK_PATH")
-}
-
-object EmvConstants{
-    const val PACKAGE = "au.gov.vic.emv.qa"
-    const val ACTIVITY = "au.gov.vic.emv.MainActivity"
-    const val APP_ANDROID = "/Users/isaacpellew/Downloads/vic-emergency-qa-96.apk"
 }
 
