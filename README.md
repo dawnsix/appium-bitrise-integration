@@ -8,4 +8,5 @@ NOTE: to get whitebox/code execution from test in Java8 + Mvn working on AWS dev
 3. sync gradle builds locally, build espresso server locally and copy apk
 4. upload as auxillary app
 5. update default appium commands with vendor prefixes
+
 x. to debug, route stdout/err into a file and cat
